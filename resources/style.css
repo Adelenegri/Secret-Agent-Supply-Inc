@@ -11,10 +11,12 @@ body {
 }
 /* Header section*/
 
-header {
+header,
+.textbox,
+.nav {
   background-color: black;
-  color: white;
   font-size: 1rem;
+  color: white;
 }
 
 .container.logo {
@@ -30,3 +32,32 @@ header {
 .logo span {
   padding: 0.66rem 0.5rem;
 }
+
+/* Main-banner section*/
+
+.main-banner {
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg" /*alt="man on bike"*/);
+background-size: cover;
+height: 25rem;
+}
+
+.textbox {
+  width: 20rem;
+  height: 9rem;
+  font-weight: bold;
+  position: relative;
+  top: 9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.textbox h1 {
+  font-size: 2rem;
+}
+
+/*.textbox h1,
+.textbox h2 {
+  margin-top: 2rem;
+  margin-left: 3rem;
+  padding-bottom: 0.25rem;
+}*/
