@@ -43,17 +43,27 @@ height: 25rem;
 
 .textbox {
   width: 20rem;
-  height: 9rem;
+  /*height: 10rem;*/
   font-weight: bold;
   position: relative;
   top: 9rem;
-  display: flex;
-  flex-direction: column;
+  padding: 2rem 3rem;
+  /*display: flex;
+  flex-direction: column;*/
 }
 
 .textbox h1 {
   font-size: 2rem;
+  padding: 0.25rem 0;
 }
+
+/*.textbox-h{
+  /*margin-top: 2rem;
+  margin-left: 3rem;*/
+  /*position: relative;
+  top: 2rem;
+  left: 3rem;
+}*/
 
 /*.textbox h1,
 .textbox h2 {
