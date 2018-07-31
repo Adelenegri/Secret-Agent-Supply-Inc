@@ -14,7 +14,7 @@ body {
 header,
 .textbox,
 nav,
-a {
+.item-box p{
   background-color: black;
   font-size: 1rem;
   color: white;
@@ -69,11 +69,70 @@ nav ul{
 
 nav a{
   text-decoration: none;
+  color: white;
+  font-size: 1rem;
 }
 
 /* Product Grid */
 
+/*.product-grid {
+  display: flex;
+  /*flex-direction: row;*/
+  /*width: 30%;
+}*/
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
 .product-grid {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem;
+}
+.item-box {
+  /*display: flex;
+  flex-direction: row;
+  justify-content: space-between;*/
+  width: 30%;
+  /*height: 9rem;
+  overflow: hidden;*/
+  border: 4px solid black;
+  /*position: relative;
+  top: 3rem;*/
+}
+
+.item-box img{
+  padding: 2rem 0;
+  height: 9rem;
+  /*width: auto;
+  display: block;*/
+}
+
+.item-box p{
+padding: 0.5rem 0;
+text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.info-box {
+  /*display: flex;
+  flex-direction: row;
+  justify-content: space-between;*/
+  width: 35%;
+}
+
+#black {
+  padding: 1rem 0 1rem 2rem;
+  color: white;
+  background-color: black;
 }
