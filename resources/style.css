@@ -13,7 +13,8 @@ body {
 
 header,
 .textbox,
-.nav {
+nav,
+a {
   background-color: black;
   font-size: 1rem;
   color: white;
@@ -43,13 +44,10 @@ height: 25rem;
 
 .textbox {
   width: 20rem;
-  /*height: 10rem;*/
   font-weight: bold;
   position: relative;
   top: 9rem;
   padding: 2rem 3rem;
-  /*display: flex;
-  flex-direction: column;*/
 }
 
 .textbox h1 {
@@ -57,17 +55,25 @@ height: 25rem;
   padding: 0.25rem 0;
 }
 
-/*.textbox-h{
-  /*margin-top: 2rem;
-  margin-left: 3rem;*/
-  /*position: relative;
-  top: 2rem;
-  left: 3rem;
-}*/
+/*Navigation section*/
 
-/*.textbox h1,
-.textbox h2 {
-  margin-top: 2rem;
-  margin-left: 3rem;
-  padding-bottom: 0.25rem;
-}*/
+nav {
+  padding: 0.75rem;
+  background-color: firebrick;
+}
+
+nav ul{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+/* Product Grid */
+
+.product-grid {
+  display: flex;
+  flex-direction: row;
+}
